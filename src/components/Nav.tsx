@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img from '../../public/'
+import linkedinLogo from '../icons/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png'
+
 export default function Nav() {
   return (
     <nav>
@@ -15,7 +16,19 @@ export default function Nav() {
           <Link to="projects">Projects</Link>
         </li>
         <li>
-          <a href="https://github.com/josh-w-mason"><img src="../../public" </a>
+          <a href="https://github.com/josh-w-mason">
+            <img
+              src={
+                'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+              }
+              alt="github logo"
+            ></img>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/joshua-walcott-mason">
+            <img src={linkedinLogo} alt="Linked In logo"></img>
+          </a>
         </li>
       </ul>
     </nav>
