@@ -63,6 +63,7 @@
 
 h2 {
   font-size: 20px;
+  font-weight: normal;
 }
 
 .inverted{
@@ -77,4 +78,10 @@ h2 {
   padding-bottom: 130px;
   padding-right: 50px;
   width: 550px
+}
+
+
+.no-underline {
+  text-decoration: none;
+  
 }
