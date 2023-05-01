@@ -3,6 +3,7 @@ import joshSketch from './josh-mountain-sketch.svg'
 import './App.css'
 import React from 'react'
 import Nav from './Nav'
+import About from './About'
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
           <img src={joshSketch} className="App-logo inverted" alt="logo" />
           <p>The imagination of Joshua Mason.</p>
           <br></br>
-          <h2>Web Developer | Muso | Writer</h2>
+          <h2>Web Developer | Muso | Occasional writer</h2>
         </header>
       </div>
+      <About />
     </>
   )
 }

@@ -6,7 +6,7 @@ import githubLogo from '../icons/png-transparent-github-social-media-computer-ic
 export default function Nav() {
   return (
     <nav>
-      <div className="Nav-logo nav-list">
+      <div className="nav Nav-logo nav-list">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -19,12 +19,20 @@ export default function Nav() {
           </li>
 
           <li>
-            <a href="https://github.com/josh-w-mason">
+            <a
+              href="https://github.com/josh-w-mason"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={githubLogo} alt="github logo"></img>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/joshua-walcott-mason">
+            <a
+              href="https://www.linkedin.com/in/joshua-walcott-mason"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={linkedinLogo} alt="Linked In logo"></img>
             </a>
           </li>

@@ -37,6 +37,15 @@
   }
 }
 
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+}
+
 .Nav-logo img {
   width: 30px;
   height: 30px
@@ -58,4 +67,14 @@ h2 {
 
 .inverted{
   filter: invert(1);
+}
+
+.about {
+  text-align: justify;
+  float: right;
+  margin-left: 20px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-right: 50px;
+  width: 550px
 }
