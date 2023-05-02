@@ -5,7 +5,7 @@ import Emoji from 'react-emoji-render'
 export default function About() {
   return (
     <>
-      <div className="about">
+      <div id="aboutMe" className="about">
         <h3>About</h3>
         <p>
           Welcome, friend, to my little corner of the internet. This is where I
@@ -29,8 +29,8 @@ export default function About() {
           ✩♬ ₊˚.🎧⋆☾⋆⁺₊✧
           <br></br>
           <br></br>I love philosophy and psychology, too - what makes people
-          tick and working out how best to spend this brief time we have on this
-          planet together seems pretty important to me.🌏🌌
+          tick and working out how best to spend our brief on this planet
+          together seems pretty important to me.🌏🌌
           <br></br> <br></br>
           If you you want more detailed information on my work history, you can
           download my CV{' '}

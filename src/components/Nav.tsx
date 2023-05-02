@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import linkedinLogo from '../icons/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png'
 import githubLogo from '../icons/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png'
+import { Link as ScrollLink } from 'react-scroll'
 
 export default function Nav() {
   return (
@@ -12,10 +13,10 @@ export default function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="aboutMe">About</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="projects">Projects</Link>
           </li>
 
           <li>
