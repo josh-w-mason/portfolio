@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Emoji from 'react-emoji-render'
 import joshSketch from './josh-mountain-sketch.svg'
 
 export default function Home() {
