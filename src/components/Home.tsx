@@ -9,7 +9,7 @@ export default function Home() {
       <div id="home" className="App">
         <header className="App-header">
           <img src={joshSketch} className="App-logo inverted" alt="logo" />
-          <p>The imagination of Joshua Mason.</p>
+          <p>Joshua Mason.</p>
           <br></br>
           <h2>Web Developer | Muso | disciple of wanderlust</h2>
         </header>

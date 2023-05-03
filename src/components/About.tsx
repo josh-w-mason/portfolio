@@ -29,8 +29,8 @@ export default function About() {
           ✩♬ ₊˚.🎧⋆☾⋆⁺₊✧
           <br></br>
           <br></br>I love philosophy and psychology, too - what makes people
-          tick and working out how best to spend our brief on this planet
-          together seems pretty important to me.🌏🌌
+          tick and working out how best to spend our brief time together on this
+          planet feels pretty important to me.🌏🌌
           <br></br> <br></br>
           If you you want more detailed information on my work history, you can
           download my CV{' '}
@@ -38,6 +38,10 @@ export default function About() {
             here
           </a>
           .
+        </p>
+        <p>
+          Or just drop me a line at josh.mason.music@gmail.com. Thanks for
+          stopping by!
         </p>
       </div>
     </>
