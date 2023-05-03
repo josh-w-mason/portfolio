@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import buddyPic from '../screenshots/buddy-screenshot.png'
+import fullstackPic from '../screenshots/full-stack-screenshot.png'
 
 const projects = [
   {
@@ -23,13 +24,17 @@ const projects = [
     screenshot: buddyPic,
   },
 
-  // {title:
-  //   description:
-  // reflections:
-  // tech:
-  // deployedLink:
-  // gitHubLink:
-  // screenshot: },
+  {
+    title: 'Basic full-stack todo list',
+    description:
+      'This project was one of our individual assignments where we had to implement the culmination of all of the different pieces of the tech stack we had learned in a basic application demonstrating some CRUD functionality. For mine I choose to make a list of some basic information about festivals I would like to go to one day, with an add form at the bottom.',
+    reflections:
+      "Getting my head around the complete data flow with the newly added Redux to the stack was definitely tricky at first. I consulted one of my developer friends and we had good discussions to clarify what was happening where. The deployment part of the assessment (we were using Dokku) ended up chewing up way more time than I was expecting. As such I didn't get around to implenting more CRUD features and styling, but this is something I can come back to for practise in the future",
+    tech: ['React', 'Redux', 'Typescript', 'Knex'],
+    deployedLink: ' ',
+    gitHubLink: 'https://github.com/josh-w-mason/full-stack-todo',
+    screenshot: fullstackPic,
+  },
 
   // {title:
   //   description:
@@ -44,32 +49,64 @@ export default function Projects() {
   return (
     <>
       <div id="projects" className="project">
-        <img
-          src={projects[0].screenshot}
-          alt="Screenshot of the homepage for buddy"
-        ></img>
-        <div id="buddy" className="project-info">
-          <header>
-            <h2>Project title: {projects[0].title}</h2>
-          </header>
-          <p>{projects[0].description}</p>
-          <p>{projects[0].reflections}</p>
-          <ul className="nav-list">
-            Tech used:{' '}
-            {projects[0].tech.map((i, ind) => (
-              <li key={ind}>{i}</li>
-            ))}
-          </ul>
-          <p>
-            <a
-              className="no-underline"
-              href={projects[0].gitHubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github.
-            </a>
-          </p>
+        <div id="buddy">
+          <img
+            src={projects[0].screenshot}
+            alt="Screenshot of the homepage for buddy"
+          ></img>
+          <div className="project-info">
+            <header>
+              <h2>Project title: {projects[0].title}</h2>
+            </header>
+            <p>{projects[0].description}</p>
+            <p>{projects[0].reflections}</p>
+            <ul className="nav-list">
+              Tech used:{' '}
+              {projects[0].tech.map((i, ind) => (
+                <li key={ind}>{i}</li>
+              ))}
+            </ul>
+            <p>
+              <a
+                className="no-underline"
+                href={projects[0].gitHubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github.
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="section-divider"></div>
+        <div id="fullStack">
+          <img
+            src={projects[1].screenshot}
+            alt="Screenshot of the homepage for buddy"
+          ></img>
+          <div className="project-info">
+            <header>
+              <h2>Project title: {projects[1].title}</h2>
+            </header>
+            <p>{projects[1].description}</p>
+            <p>{projects[1].reflections}</p>
+            <ul className="nav-list">
+              Tech used:{' '}
+              {projects[1].tech.map((i, ind) => (
+                <li key={ind}>{i}</li>
+              ))}
+            </ul>
+            <p>
+              <a
+                className="no-underline"
+                href={projects[1].gitHubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github.
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <div className="section-divider"></div>
