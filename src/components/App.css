@@ -71,6 +71,7 @@ h2 {
 }
 
 .about {
+  background-color: beige;
   text-align: justify;
   float: right;
   margin-left: 20px;

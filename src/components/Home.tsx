@@ -11,7 +11,7 @@ export default function Home() {
           <img src={joshSketch} className="App-logo inverted" alt="logo" />
           <p>Joshua Mason.</p>
           <br></br>
-          <h2>Web Developer | Muso | disciple of wanderlust</h2>
+          <h2>Web Developer | Muso | wanderlust enthusiast</h2>
         </header>
       </div>
     </>

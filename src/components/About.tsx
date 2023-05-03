@@ -6,10 +6,17 @@ export default function About() {
   return (
     <>
       <div id="aboutMe" className="about">
+        <h2>
+          <i>"Don't believe everything you read on the internet"</i> -
+          Schopenhauer
+        </h2>
+
         <h3>About</h3>
+
         <p>
-          Welcome, friend, to my little corner of the internet. This is where I
-          get to show off some of the things I’ve done. Neat right?<br></br>
+          Welcome, friend, to my little corner of the web. This is where I get
+          to show off some of the things I’ve done. Like all of us, it is a WIP.
+          Neat right?<br></br>
           <br></br>
           I’m a full stack developer who likes exploring and playing with
           problems. Through FreeCodeCamp and Dev Academy Aotearoa, I’ve worked

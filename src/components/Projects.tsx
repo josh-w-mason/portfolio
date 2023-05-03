@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import buddyPic from '../screenshots/buddy-screenshot.png'
 import fullstackPic from '../screenshots/full-stack-screenshot.png'
+import foundationsPic from '../screenshots/josh-foundations-screenshot.png'
 
 const projects = [
   {
@@ -36,13 +37,17 @@ const projects = [
     screenshot: fullstackPic,
   },
 
-  // {title:
-  //   description:
-  // reflections:
-  // tech:
-  // deployedLink:
-  // gitHubLink:
-  // screenshot: }
+  {
+    title: 'Dev Academy Foundations blog',
+    description:
+      'During the first five weeks of the Dev Academy course, we got to combine the soft skills practise of writing reflections with our beginner knowledge of HTML and CSS by making a blog.',
+    reflections:
+      'Ah, where it all began: all the way back in January. Such simpler times. I enjoyed wrestling with the weekly Sprint challenges and the puzzle solving of Javascript katas such as Fizz-Buzz towards the end.',
+    tech: ['HTML', 'CSS'],
+    deployedLink: 'https://josh-w-mason.github.io/',
+    gitHubLink: 'https://github.com/josh-w-mason/josh-w-mason.github.io',
+    screenshot: foundationsPic,
+  },
 ]
 
 export default function Projects() {
@@ -78,7 +83,7 @@ export default function Projects() {
             </p>
           </div>
         </div>
-        <div className="section-divider"></div>
+
         <div id="fullStack">
           <img
             src={projects[1].screenshot}
@@ -108,8 +113,46 @@ export default function Projects() {
             </p>
           </div>
         </div>
+        <div id="foundations">
+          <img
+            src={projects[2].screenshot}
+            alt="Screenshot of the homepage for buddy"
+          ></img>
+          <div className="project-info">
+            <header>
+              <h2>Project title: {projects[2].title}</h2>
+            </header>
+            <p>{projects[2].description}</p>
+            <p>{projects[2].reflections}</p>
+            <ul className="nav-list">
+              Tech used:{' '}
+              {projects[2].tech.map((i, ind) => (
+                <li key={ind}>{i}</li>
+              ))}
+            </ul>
+            <p>
+              <a
+                className="no-underline"
+                href={projects[2].gitHubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github.
+              </a>
+            </p>
+            <p>
+              <a
+                className="no-underline"
+                href={projects[2].deployedLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live site.
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="section-divider"></div>
     </>
   )
 }
