@@ -38,7 +38,10 @@ export default function About() {
           <br></br> <br></br>
           If you you want more detailed information on my work history, you can
           download my CV{' '}
-          <a href="../josh-mason-cv-general-dev-23.pdf" download>
+          <a
+            href={`${process.env.PUBLIC_URL}/josh-mason-cv-general-dev-23.pdf`}
+            download
+          >
             here
           </a>
           .
