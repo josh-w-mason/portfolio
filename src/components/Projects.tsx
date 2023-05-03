@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import buddyPic from '../screenshots/buddy-screenshot.png'
 import fullstackPic from '../screenshots/full-stack-screenshot.png'
 import foundationsPic from '../screenshots/josh-foundations-screenshot.png'

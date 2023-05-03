@@ -1,14 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Emoji from 'react-emoji-render'
 
 export default function About() {
   return (
     <>
       <div id="aboutMe" className="about">
         <h2>
-          <i>"Don't believe everything you read on the internet"</i> -
-          Schopenhauer
+          <i>"Don't believe everything you read on the internet"</i> - Nietzsche
         </h2>
 
         <h3>About</h3>

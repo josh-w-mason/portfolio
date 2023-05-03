@@ -12,10 +12,7 @@
     "@types/react-dom": "^18.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-emoji-render": "^2.0.1",
-    "react-router-dom": "^6.11.0",
-    "react-scripts": "^5.0.1",
-    "react-scroll": "^1.8.9",
+    "react-scripts": "5.0.1",
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.4"
   },
@@ -42,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react-scroll": "^1.8.6"
   }
 }
